@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories:
   - Linux
@@ -21,4 +21,3 @@ Mengatur network centos7 saat pertama kali diinstall
 
 **4. Test koneksi**
 >ping google.com
-

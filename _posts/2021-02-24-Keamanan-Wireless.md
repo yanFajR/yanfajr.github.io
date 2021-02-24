@@ -1,5 +1,8 @@
 ---
 published: false
+layout: post
+categories:
+  - Wireless
 ---
 Wireless Network memilik kelemahan dalam keamanan dibandingkan dengan wired network, karena siapapun dapat dengan mudah terhubung ke suatu wireless network asalkan memiliki adapter wireless pada perangkatnya, oleh karena itu dibuatlah berbagai macam teknik untuk mengamankan wireless network.
 
@@ -16,7 +19,7 @@ WEP adalah keamanan wireless yang sudah lama dan sekarang mudah untuk dicrack, s
 WPA adalah kemanan wireless yang lebih baru dibanding WEP. Terdapat 2 enkripsi yaitu AES dan TKIP, AES lebih baik dibanding TKIP, karena TKIP seperti WEP. WPA masih mudah untuk dicrack.
 
 ### WPA2
-WPA2 adalah upgrade dari WPA sehingga lebih aman. Terdapat 2 enkripsi yaitu AES dan TKIP
+WPA2 adalah upgrade dari WPA sehingga lebih aman. Terdapat 2 enkripsi yaitu AES dan TKIP.
 
 ### MAC Filterring
 ![mf.PNG]({{site.baseurl}}/images/mf.PNG)

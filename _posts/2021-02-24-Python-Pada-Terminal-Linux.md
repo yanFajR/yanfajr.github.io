@@ -1,5 +1,9 @@
 ---
-published: false
+published: true
+layout: post
+categories:
+  - Python
+  - Linux
 ---
 Membuat program python melalui terminal cli
 

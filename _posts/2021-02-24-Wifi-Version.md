@@ -4,7 +4,7 @@ layout: post
 categories:
   - Wireless
 ---
-## 802.11 b/a/g/n/ac/ax
+802.11 b/a/g/n/ac/ax
 
 ### wifi 1
 802.11b, bekerja pada frekuensi 2.4 Ghz, dengan kecepatan 11 Mbps

@@ -52,13 +52,8 @@ Mengidentifikasi kelemahan system
 
 ## Prinsip Keamanan Informasi
 ### Confidentialy
-
 Merupakan kerahasiaan informasi
-
 ### Integrity
-
 Merupakan keutuhan informasi
-
 ### Availability
-
 Merupakan ketersediaan informasi

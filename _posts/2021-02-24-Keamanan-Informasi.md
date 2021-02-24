@@ -5,7 +5,7 @@ categories:
   - Security
 ---
 ## Konteks
-### Keamanan Fisi
+### Keamanan Fisik
 Terkait dengan perlindungan terhadap fisik perangkat informasi
 
 ### Keamanan Komunikasi

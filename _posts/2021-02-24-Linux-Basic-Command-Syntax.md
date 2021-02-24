@@ -8,7 +8,7 @@ Peritah-perintah dasar pada command line interface linux
 
 **OS : LINUX MINT 20**
 
-### Bentuk Umum
+## Bentuk Umum
 > command [optios] [arguments]
 
 contoh : ls -la /home
@@ -53,8 +53,7 @@ contoh : ls -la /home
 
 ![cat.PNG]({{site.baseurl}}/images/cat.PNG)
 
--tail
--head
+cara lain : tail, head
 
 ## Mengcopy file
 > cp

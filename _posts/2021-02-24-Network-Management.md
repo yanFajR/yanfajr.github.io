@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories:
   - Network Management
@@ -29,5 +29,3 @@ Tracking and monitoring user utilization of network resource
 Protocol yang berguna untuk network management. simple, more complex, advanced
 
 contoh : snmpv1, snmpv2, snmpv3, CMIS, CMIP
-
-

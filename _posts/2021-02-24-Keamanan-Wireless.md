@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories:
   - Wireless
@@ -24,4 +24,3 @@ WPA2 adalah upgrade dari WPA sehingga lebih aman. Terdapat 2 enkripsi yaitu AES 
 ### MAC Filterring
 ![mf.PNG]({{site.baseurl}}/images/mf.PNG)
 MAC Filterring bekerja dengan mendaftarkan alamat mac client yang dapat terhubung ke wireless network. Daftar tersebut akan dilakukan action diizinkan untuk join ke network atau ditolak.
-

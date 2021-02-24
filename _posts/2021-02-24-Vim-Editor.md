@@ -1,5 +1,8 @@
 ---
 published: false
+layout: post
+categories:
+  - Linux
 ---
 Vim adalah salah satu text editor cli pada linux, vim adalah pengembangan dari vi
 

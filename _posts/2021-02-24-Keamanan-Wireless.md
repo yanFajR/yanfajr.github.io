@@ -12,14 +12,14 @@ Untuk mengaktifkan keamanan hide SSID harus mendisable broadcast SSID, dan mengg
 
 ### WEP
 ![wep.PNG]({{site.baseurl}}/images/wep.PNG)
-WEP adalah keamanan wireless yang sudah lama dan sekarang mudah untuk dicrack, sangat tidak dianjurkan untuk dipakai. Terdapat dua macam key yaitu yang panjangnya 10 dan 23 hex digit.
+WEP (Wired Equivalent Privacy) adalah keamanan wireless yang sudah lama dan sekarang mudah untuk dicrack, sangat tidak dianjurkan untuk dipakai. Terdapat dua macam key yaitu yang panjangnya 10 dan 23 hex digit.
 
 ### WPA
 ![wpa.PNG]({{site.baseurl}}/images/wpa.PNG)
-WPA adalah kemanan wireless yang lebih baru dibanding WEP. Terdapat 2 enkripsi yaitu AES dan TKIP, AES lebih baik dibanding TKIP, karena TKIP seperti WEP. WPA masih mudah untuk dicrack.
+WPA (Wi-Fi Protected Access) adalah kemanan wireless yang lebih baru dibanding WEP. Terdapat 2 enkripsi yaitu AES dan TKIP, AES lebih baik dibanding TKIP, karena TKIP seperti WEP. WPA masih mudah untuk dicrack.
 
 ### WPA2
-WPA2 adalah upgrade dari WPA sehingga lebih aman. Terdapat 2 enkripsi yaitu AES dan TKIP.
+WPA2 (Wi-Fi Protected Access 2) adalah upgrade dari WPA sehingga lebih aman. Terdapat 2 enkripsi yaitu AES dan TKIP.
 
 ### MAC Filterring
 ![mf.PNG]({{site.baseurl}}/images/mf.PNG)

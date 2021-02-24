@@ -4,7 +4,7 @@ layout: post
 categories:
   - Wireless
 ---
-Wireless Network memilik kelemahan dalam keamanan dibandingkan dengan wired network, karena siapapun dapat dengan mudah terhubung ke suatu wireless network asalkan memiliki adapter wireless pada perangkatnya, oleh karena itu dibuatlah berbagai macam teknik untuk mengamankan wireless network.
+Wireless Network memilik kelemahan pada sisi keamanan dibandingkan dengan wired network, karena siapapun dapat dengan mudah terhubung ke suatu wireless network asalkan memiliki adapter wireless pada perangkatnya, oleh karena itu dibuatlah berbagai macam teknik untuk mengamankan wireless network.
 
 ### Hide SSID
 ![hidessid.PNG]({{site.baseurl}}/images/hidessid.PNG)

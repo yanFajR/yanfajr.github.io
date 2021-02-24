@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories:
   - Security
@@ -40,5 +40,3 @@ Merupakan kerahasiaan informasi
 Merupakan keutuhan informasi
 ### Availability
 Merupakan ketersediaan informasi
-
- 

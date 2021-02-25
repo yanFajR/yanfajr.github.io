@@ -6,7 +6,7 @@ categories:
 ---
 Perancangan jaringan hendaklah mengikuti metode yang benar agar jaringan yang akan dibuat memiliki nilai yang lebih. Merancang jaringan bukan hanya seperti connect the dot. Metode perancangan jaringan yang baik adalah Top-Down, artinya perancangan jaringan dimulai dari aspek layer 7 hingga layer 1 (application, presntation, session, transport, network, data link, physical).
 
-adapun tahapan perancangan jaringan (PDIOO)
+Adapun tahapan perancangan jaringan (PDIOO)
 - Plan
 Identifikasi kebutuhan jaringan
 - Design

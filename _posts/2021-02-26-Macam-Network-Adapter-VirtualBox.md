@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories:
   - Virtualisasi
@@ -41,6 +41,3 @@ Name harus sama antar kedua guest
 
 Seperti guest os membentu segemen network sendiri dan tidak terhubung ke host os
 ![adapter-only.PNG]({{site.baseurl}}/images/adapter-only.PNG)
-
-
-

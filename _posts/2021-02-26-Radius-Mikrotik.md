@@ -32,12 +32,12 @@ pada kuota satuanya Bytes, pada rate satuannya bits
 ![user.PNG]({{site.baseurl}}/images/user.PNG)
 
 
-3. Setting pada Mikrotik menggunakan winbox
+**3. Setting pada Mikrotik menggunakan winbox**
 ![radius.PNG]({{site.baseurl}}/images/radius.PNG)
 
 setting pada hotspot server profile
 ![hotspotserverprofile.PNG]({{site.baseurl}}/images/hotspotserverprofile.PNG)
 
-4. Testing
+**4. Testing**
 masukkan user dan password yang sudah dibuat
 ![budi.PNG]({{site.baseurl}}/images/budi.PNG)

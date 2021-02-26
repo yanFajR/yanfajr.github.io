@@ -5,8 +5,7 @@ categories:
   - Virtualisasi
 ---
 VirtualBox merupakan hypervisor type dua yang menjalankan guest os diatas host os.
-![]({{site.baseurl}}/images/Vb.PNG)
-
+![Vb.PNG]({{site.baseurl}}/images/Vb.PNG)
 
 Network adapter pada VirtualBox :
 

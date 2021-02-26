@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories:
   - Mikrotik
@@ -14,5 +14,3 @@ Untuk trafik dengan tujuan ip router
 
 - Output
 Untuk trafik yang berasal dari dalam router
-
-

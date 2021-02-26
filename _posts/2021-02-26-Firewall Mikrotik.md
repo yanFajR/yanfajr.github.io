@@ -6,11 +6,14 @@ categories:
 ---
 ## Chain Firewall Mikrotik
 
-- Forward
+**- Forward**
+
 Untuk trafik yang hanya melewati router
 
-- Input
+**- Input**
+
 Untuk trafik dengan tujuan ip router
 
-- Output
+**- Output**
+
 Untuk trafik yang berasal dari dalam router

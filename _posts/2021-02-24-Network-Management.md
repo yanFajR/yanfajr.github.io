@@ -31,4 +31,6 @@ Protocol yang berguna untuk network management. simple, more complex, advanced
 contoh : snmpv1, snmpv2, snmpv3, CMIS, CMIP
 
 ## Radius
-RADIUS atau Remote Authentication Dial In User Service merupakan protocol yang menyediakan service AAA (Authentication, Authorization, Accounting). Dikembangka oleh Livingston Enterprises
+RADIUS atau Remote Authentication Dial In User Service merupakan protocol yang menyediakan service AAA (Authentication, Authorization, Accounting). Dikembangkan oleh Livingston Enterprises.
+
+contoh penggunaan [radius mikrotik](https://yanfajr.github.io/Radius-Mikrotik/)

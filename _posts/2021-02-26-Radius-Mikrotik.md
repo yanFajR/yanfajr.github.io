@@ -42,3 +42,11 @@ setting pada hotspot server profile
 
 masukkan user dan password yang sudah dibuat
 ![budi.PNG]({{site.baseurl}}/images/budi.PNG)
+
+## Menambahkan Advertise Pop-up pada hotspot
+![tp.PNG]({{site.baseurl}}/images/tp.PNG)
+centang transparent proxy
+![adv.PNG]({{site.baseurl}}/images/adv.PNG)
+
+
+

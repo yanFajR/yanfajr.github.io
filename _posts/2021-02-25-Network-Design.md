@@ -8,14 +8,19 @@ Perancangan jaringan hendaklah mengikuti metode yang benar agar jaringan yang ak
 
 Adapun tahapan perancangan jaringan (PDIOO)
 - Plan
+
 Identifikasi kebutuhan jaringan
 - Design
+
 Mendesain topologi secara logical dan physical
 - Implement
+
 Implementasi desain jaringan
 - Operate
+
 Menggunakan jaringan yang telah dirancang dengan tetap melakukan monitoring kualitas
 - Optimize
+
 Peningkatan performa dan perbaikan terhadap masalah jaringan
 
 ## Analisis tujuan bisnis dan kekangan

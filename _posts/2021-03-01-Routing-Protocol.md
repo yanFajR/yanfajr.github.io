@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories:
   - Networking
@@ -76,7 +76,3 @@ Contoh : BGP
 
 ## Routing Protocol Metrics
 Untuk menentukan jalur terbaik yang akan dipilih dari sekian jalur yang ada.
-
-
-
-

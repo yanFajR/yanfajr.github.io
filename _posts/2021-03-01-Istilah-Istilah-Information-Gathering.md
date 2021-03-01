@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ### Registry
 Perusahaan pengelola top level domain

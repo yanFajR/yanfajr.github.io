@@ -1,5 +1,8 @@
 ---
 published: false
+layout: post
+categories:
+  - Networking
 ---
 **Routing Protocol** adalah mekanisme atau aturan bagaimana paket-paket dikirimkan melalui jalur terbaik ke network tujuan.
 

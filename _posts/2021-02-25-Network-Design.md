@@ -36,3 +36,6 @@ Tujuan teknis
 - **usabilty**, mengenai kemudahan pengaksesan resource jaringan.
 - **adaptability**, mengenai kemampuan rancangan yang dapat mengadaptasi teknologi terbaru dimasa mendatang.
 - **affordability**, mengenai biaya yang dikeluarkan harus memenuhi kebutuhan.
+
+## Karakterisasi Existing Jaringan dan Trafik
+Tujuannya untuk mengidentifikasi kebutuhan dan menyesuaikan atara ekspektasi dan kondisi.

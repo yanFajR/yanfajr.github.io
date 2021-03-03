@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories:
   - Networking
@@ -21,9 +21,4 @@ categories:
   
 - Hub digunakan untuk mengkoneksikan dua atau lebih host dalam satu network, tetapi hub memiliki kelemahan yaitu ia akan membroadcast pesan yang diterima dari satu host ke host lainnya walaupun maksud pesan tersebut ditujukan untuk satu host, dan juga hub hanya memiliki satu collision domain sehingga ketika dua host mengirim pesan secara bersamaan maka akan terjadi tabrakan yang menyebabkan penurunan kualitas jaringan.
 
-- Switch muncul untuk mengatasi problem dari hub, dengan memisahkan colission domain pada tiap portnya. 
-
-
-
-
-
+- Switch muncul untuk mengatasi problem dari hub, dengan memisahkan colission domain pada tiap portnya.

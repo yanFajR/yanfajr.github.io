@@ -1,5 +1,8 @@
 ---
 published: false
+layout: post
+categories:
+  - Devnet
 ---
 ## Software Devlopment
 Software development atau lebih dikenal dengan SDLC (software development life cycle) membicarakan bagaimana mengembangkan sebuah software dimulai dari mengidentifikasi kebutuhan, membuat proof konsep, testing, hingga memperbaik bug.
@@ -41,9 +44,14 @@ Software development atau lebih dikenal dengan SDLC (software development life c
 
 ### metode software development
 - Waterfall
-Metode ini menggunakan fase sdlc dengan kaku, harus berurutan dari 1 hingga 6, tidak kembali ke fase sebelumnya .
-- Agile and Learn
-Metode ini lebih flexible dan adaptive, bisa kembali ke fase sdlc sebelumnya.
+    - Metode ini menggunakan fase sdlc dengan kaku, harus berurutan dari 1 hingga 6, tidak kembali ke fase sebelumnya. 
+    - Suatu fase menunggu output dari fase sebelumnya sebagai input fasenya.
+    - Akan banya cost dan delay jika terjadi perubahan-perubahan.
+    
+- Agile
+Metode ini flexibel dan berfokus pada costumer.
+
+- Lean
 
 
 ## Software Design Patern

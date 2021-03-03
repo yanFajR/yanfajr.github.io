@@ -42,7 +42,7 @@ Software development atau lebih dikenal dengan SDLC (software development life c
    - Melakukan software improvement.
    - Gather permintaan baru dari costumer.
 
-### metode software development
+### Metode software development
 - Waterfall
     - Metode ini menggunakan fase sdlc dengan kaku, harus berurutan dari 1 hingga 6, tidak kembali ke fase sebelumnya. 
     - Suatu fase menunggu output dari fase sebelumnya sebagai input fasenya.

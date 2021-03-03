@@ -31,7 +31,7 @@ Software development atau lebih dikenal dengan SDLC (software development life c
    - Testing berdasarkan test plan dokument yang berisi tentang list test yang menguji fitur dan fungsional dari software yang dispesifikkan dari costumer requirements.
    - Selain itu juga dilakukan integration testing, security testing, dan perfomance testing.
    - Jika ada yang tidak lolos tes, maka akan dilakukan fixing bugs oleh developer hingga code telah lulus test.
-   -
+   
 5. Deployment
    - Software akan diinstal di production environment.
    - Jika tidak ada masalah software akan dideliver ke costumer.

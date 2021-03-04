@@ -56,7 +56,15 @@ categories:
   - Orang yang sedang mencoba-coba untuk belajar
 - Fase
   - Reconnaissance
+    - Mencari informasi mengenai target yang akan diserang.
+    - Target : klien, pegawai, network, sistem operasi, dll.
+    - Ada dua macam :
+      - active
+        Langsung berinteraksi dengan target.
+      - passive
+        Tidak berinteraksi langsung, dengan mencari public record.
   - Scanning
+    - Scan the network
   - Gaining Access
   - Maintaining Access
   - Clearing Tracks

@@ -123,6 +123,8 @@ Menjalankan radius dalam mode debug, berhasil ketika "ready to process requests"
      quit;
      ```
   3. Import skema radius database ke mariadb radius database
+  
+     YOUR_PASSWORD merupakan password root database saat menginstall secure mysql.
      ```
      mysql -uroot -pYOUR_PASSWORD radius < /etc/raddb/mods-config/sql/main/mysql/schema.sql
      ```

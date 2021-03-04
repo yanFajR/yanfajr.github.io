@@ -152,10 +152,10 @@ Menggunakan software design patern telah terbukti berhasi, menggunakannya akan m
     
       Penengah dari model dan view, controller mengambil input dari user lalu memanipulasinya menjadi format yang dapat dimengerti model atau view.
   - Cara kerja
-    - User memberi input ke controller
-    - Controller memanipulasi input menjadi format yang dapat dimengerti ke model
-    - Model mengolah dan mengupdate data ke view
-    - View menampilkan visual output data ke user.
+    1. User memberi input ke controller
+    2. Controller memanipulasi input menjadi format yang dapat dimengerti ke model
+    3. Model mengolah dan mengupdate data ke view
+    4. View menampilkan visual output data ke user.
   - Kelebihannya adalha masing-masing komponen dapat dibangun secara paralel dan masing-masing komponen dependen.
     
 ## Version Control Systems

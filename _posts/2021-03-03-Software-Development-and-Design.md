@@ -54,6 +54,7 @@ Metode ini flexibel dan berfokus pada costumer.
 
 - Agile Method
   - Agile Scrum
+  
     Berfokus pada tim kecil yang diorganisasikan sendiri, melakukan pertemuan singkat setiap hari dan bekerja secara sprint yang berulang, terus menerus melakukan penyesuaian untuk requirement yang berubah. 
     - Sprint
     
@@ -68,10 +69,13 @@ Metode ini flexibel dan berfokus pada costumer.
       - Tim scrum adalah cross-functional, collaborative, self-managed and self-empowered. Idealnya tidak lebih dari 10 orang namun dapat menyelesaikan satu user story dalam sekali sprint.
       - Setiap hari melakukan standup meeting yang tidak lebih dari 15 menit untuk menjaga semua anggota tim syncron dari apa yang sudah diselesaikan pada standup sebelumnya dengan apa yang akan dikerjakan hingga standup berikutnya, dan kendala apa yang menghambat mereka dalam menyelesaikan tugas.
   - Lean
+  
     Menekankan pada penghapusan usaha yang sia-sia dalam perencanaan dan pelaksanaan, dan mengurangi beban kognitif programmer.
   - Extreme Programing
+  
     Bersifat lebih prespektif terhadap best-practice software engineering, dan lebih menangani quality of life tertentu yang dihadapi tim software development.
   - Feature-Driven Development
+  
     Pengembangan software harus diproses dalam kerangka model keseluruhan, dipecah, direncanakan, dirancang, dan dibangun fitur demi fitur. 
 
 #### Lean
@@ -79,17 +83,23 @@ Meminimalkan waste dan memaksimalkan nilai kepada costumer.
 
 - 7 waste software development
   - Partialy done work
+  
     Karena tidak menambah value kepada costumer, waktu dan resource yang dipakai seharusnya bisa digunakan untuk memberikan value kepada costumer, biasanya tidak dimaintain.
   - Extra process
   - Extra features
+  
     Jangan membuat sesuatu yang tidak diminta.
   - Task switching
+  
     Perlu waktu untuk menyesuaikan diri ketika berpindah pekerjaan, oleh karena itu jangan banyak task switching.
   - Waiting
+  
     Delay is waste.
   - Motion
+  
     Pergerakan dan perpindahan untuk melakukan sesuatu yang dibutuhkan juga memakan waktu. 
   - Defects
+  
     bug is waste.
 - Perkuat pembelajaran dengan short sprint
   - developer akan belajar dengan cepat
@@ -100,6 +110,7 @@ Meminimalkan waste dan memaksimalkan nilai kepada costumer.
   - Jika ada ketidakpastian, software dibuat seflexsibel mungkin agar dapat dilakukan perubahan nanti.
 - Deliver secepat mungkin
 - Berdayakan tim
+
   Setiap orang memiliki keahlian masing-masing berikan mereka keluasan untuk mengerjakan bidang yang mereka ahlikan. 
 - Build integrity in
 - Optimasi seluruhnya
@@ -130,10 +141,13 @@ Menggunakan software design patern telah terbukti berhasi, menggunakannya akan m
   - Dapat dipertimbankga sebagai arsitektural design patern, menyimpelkan pengembangan perangkat lunak berbasis gui. 
   - Komponen:
     - Model
+    
       Model merupakan struktur data aplikasi yang bertanggung jawab untuk mengelola data, logic, dan rule aplikasi. Model mendapat input dari controller. 
     - View
+    
       Visual representation dari data.
     - Controller
+    
       Penengah dari model dan view, controller mengambil input dari user lalu memanipulasinya menjadi format yang dapat dimengerti model atau view.
   - Cara kerja
     - User memberi input ke controller

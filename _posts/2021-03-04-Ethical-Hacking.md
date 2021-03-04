@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories:
   - Security
@@ -68,5 +68,4 @@ categories:
   - Gaining Access
   - Maintaining Access
   - Clearing Tracks
-  - 
- 
+  -

@@ -56,10 +56,13 @@ Metode ini flexibel dan berfokus pada costumer.
   - Agile Scrum
     Berfokus pada tim kecil yang diorganisasikan sendiri, melakukan pertemuan singkat setiap hari dan bekerja secara sprint yang berulang, terus menerus melakukan penyesuaian untuk requirement yang berubah. 
     - Sprint
+    
       Ada banyak quick iterasi SDLC yang digunakan pada Agile untuk menyelesaikan frequent delivery of working software principle of the Agile manifesto.
     - Backlog
+    
       Backlog berisi semua fitur software dalam bentuk list yang berprioritas. Berasal dari fase requirement dan analisis. Termasuk fitur yang belum dirilis.
     - User stories
+    
       Statement simple dari keinginan user dan mengapa.
     - Scrum Teams
       - Tim scrum adalah cross-functional, collaborative, self-managed and self-empowered. Idealnya tidak lebih dari 10 orang namun dapat menyelesaikan satu user story dalam sekali sprint.

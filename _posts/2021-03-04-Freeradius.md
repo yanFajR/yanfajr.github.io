@@ -81,6 +81,7 @@ Menjalankan radius dalam mode debug, berhasil ketika "ready to process requests"
        gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
        gpgcheck=1
        ```
+       Install
        ```
        yum -y update
        yum install -y mariadb-server mariadb

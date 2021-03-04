@@ -17,6 +17,7 @@ categories:
 - Bot
   Software yang melakukan perintah tertentu secara automatis.
   
+  
 ## Elemen Keamanan Informasi
 - Confidentialy
 - Integrity

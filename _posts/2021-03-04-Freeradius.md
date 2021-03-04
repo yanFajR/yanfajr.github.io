@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Freeradius adalah open-source radius yang populer banyak digunakan oleh perusahaan.
 
@@ -221,10 +221,3 @@ Menjalankan radius dalam mode debug, berhasil ketika "ready to process requests"
   - Winbox
     - ip server centos
   ![mikro.PNG]({{site.baseurl}}/images/mikro.PNG)
-
-    
-  
-
-
-
-

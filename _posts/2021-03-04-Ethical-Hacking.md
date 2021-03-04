@@ -6,6 +6,7 @@ categories:
 ---
 Materi yang berkaitan dengan Ethical hacking.
 
+**Terminologi:**
 - Payload
   Bagian dari kode yang melakukan suatu action.
 - Vulnerability

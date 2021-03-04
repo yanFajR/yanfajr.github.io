@@ -26,7 +26,7 @@ Freeradius adalah open-source radius yang populer banyak digunakan oleh perusaha
      systemctl status radiusd.service
      ```
  
-### Konfig firewall
+## Konfig firewall
 untuk mengizinkan paket radius dan httpd melewati system.
   1. Install Firewalld
      ```
@@ -57,7 +57,7 @@ untuk mengizinkan paket radius dan httpd melewati system.
      firewall-cmd --list-services --zone=public
      ```
 
-### Testing radius
+## Testing radius
 Menjalankan radius dalam mode debug, berhasil ketika "ready to process requests".
   ```
   pkill radiusd
@@ -95,7 +95,7 @@ Menjalankan radius dalam mode debug, berhasil ketika "ready to process requests"
        mysql_secure_installation
        ```
 
-### Konfig PHP
+## Konfig PHP
   1. install php 7
      ```
      yum install epel-release yum-utils
@@ -108,7 +108,7 @@ Menjalankan radius dalam mode debug, berhasil ketika "ready to process requests"
      php -v
      ```
 
-### Konfig freeradius menggunakan mariadb
+## Konfig freeradius menggunakan mariadb
   1. login mariadb
      ```
      mysql -u root -p
@@ -144,7 +144,7 @@ Menjalankan radius dalam mode debug, berhasil ketika "ready to process requests"
      ```
   7. Testing radius mode debug kembali.
 
-### Konfig GUI WebPanel
+## Konfig GUI WebPanel
   1. install httpd server
      ```
      yum groupinstall "Development Tools" -y
@@ -197,7 +197,7 @@ Menjalankan radius dalam mode debug, berhasil ketika "ready to process requests"
      pear install DB
      ```
      
-### Loggin ke daloRadius
+## Logging ke daloRadius
    - kunjungi http://your-server-ip-address/daloradius/login.php
      - username : administrator
      - password : radius
@@ -209,7 +209,7 @@ Menjalankan radius dalam mode debug, berhasil ketika "ready to process requests"
      radiusd
      ```
 
-### Install ke Mikrotik
+## Install ke Mikrotik
   - Management > Nas > New Nas
     - ip mikrotik
   ![nas.PNG]({{site.baseurl}}/images/nas.PNG)

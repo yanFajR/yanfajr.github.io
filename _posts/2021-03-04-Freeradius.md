@@ -135,7 +135,7 @@ Menjalankan radius dalam mode debug, berhasil ketika "ready to process requests"
   5. Konfigurasi freeradius server untuk menggunakan database server
      - ganti, driver = "rlm_sql_null" ke driver = "rlm_sql_mysql"
      - ganti, dialect = "sqlite" ke dialect = "mysql"
-     - hapus # pada server, port, login, passwor, ganti dengan user database dan password database radius.
+     - hapus # pada server, port, login, password, ganti dengan user database dan password database radius.
      - hapus # pada read_clients = yes
      ```
      nano /etc/raddb/mods-available/sql

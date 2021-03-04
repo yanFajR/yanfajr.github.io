@@ -189,6 +189,7 @@ Menjalankan radius dalam mode debug, berhasil ketika "ready to process requests"
      $configValues['CONFIG_DB_PASS'] = 'radiuspassword';
      $configValues['CONFIG_DB_NAME'] = 'radius';
      ```
+     
      ```
      systemctl restart radiusd.service 
      systemctl restart mariadb.service 

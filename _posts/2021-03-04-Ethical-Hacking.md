@@ -1,5 +1,8 @@
 ---
 published: false
+layout: post
+categories:
+  - Security
 ---
 - Payload
   Bagian dari kode yang melakukan suatu action.

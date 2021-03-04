@@ -103,6 +103,24 @@ Meminimalkan waste dan memaksimalkan nilai kepada costumer.
 
 
 ## Software Design Patern
+Menggunakan software design patern telah terbukti berhasi, menggunakannya akan meningkatkan kecepatan dalam mengembangkan perangkat lunak, karena tidak perlu mencari solusi-solusi baru cukup mengikuti patern saja.
+
+### Original Design Patern
+- Creational, digunakan untuk memandu, menyederhanakan, mengabstraksi software objek creation dalam skala besar. 
+- Structural, patern menjelaskan cara yang dapat diandalkan dalam membuat objek dan class pada berbagai jenis projek perangkat lunak.
+- Behavioral, merinci bagaimana objek dapat berkomunikasi dan bekerjasama dalam menghadapin tantang yang familiar dalam software engineering.
+
+### Common Used Design Patern
+- Observer Design Patern
+  - Merupakan design notifikasi langgan yang membuat suatu objek(observer) menerima event ketika ada perbuhana pada objek(subject) yang mereka amati. Seperti pada notif social media.
+  - Syarat:
+    - Subjek memiliki kemampuan untuk menyimpan list observer
+    - Subjek memiliki method untuk menambah dan menghapus observer
+    - Semua observer harus mengimplementasikan callback to invoke ketika subje mengirimkan notif.
+  - Kelebihannya adalah observer dapat menerima perubahan dari subjek secara realtime dan menyediakan better performance.
+
+- Model View Controller (MVC)
+
 ## Version Control Systems
 ## Coding Basics
 ## Code Review and Testing

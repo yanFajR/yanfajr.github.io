@@ -17,8 +17,10 @@ Software development atau lebih dikenal dengan SDLC (software development life c
    - Berdasarkan SRS
    - Akan dibuat dua document:
      - High Level Design (HLD)
+     
        Menjelaskan arsitektur secara umum, komponen dan hubungan diantaranya, dan detail tambahan.
      - Low Level Design (LLD)
+     
        Menjelaskan lebih detail tentang arsitektur suatu komponen, protocol yang digunakan untuk berkomunikasi, class yang dibutuhkan dan aspek desain lainnya.
        
 3. Implementation

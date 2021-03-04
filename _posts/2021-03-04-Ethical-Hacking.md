@@ -4,6 +4,8 @@ layout: post
 categories:
   - Security
 ---
+Materi yang berkaitan dengan Ethical hacking.
+
 - Payload
   Bagian dari kode yang melakukan suatu action.
 - Vulnerability
@@ -16,7 +18,6 @@ categories:
   Mendapatkan akses ke suatu sistem.
 - Bot
   Software yang melakukan perintah tertentu secara automatis.
-  
   
 ## Elemen Keamanan Informasi
 - Confidentialy

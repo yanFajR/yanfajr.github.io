@@ -117,10 +117,28 @@ Menggunakan software design patern telah terbukti berhasi, menggunakannya akan m
     - Subjek memiliki kemampuan untuk menyimpan list observer
     - Subjek memiliki method untuk menambah dan menghapus observer
     - Semua observer harus mengimplementasikan callback to invoke ketika subje mengirimkan notif.
+  - Cara kerja
+    1. Observer menambahkan dirinya ke list obeserver milik subject
+    2. Subject melakukan method untuk mengirimkan notif ketika ada perubahan
+    3. Observer menerima notif dari subject
   - Kelebihannya adalah observer dapat menerima perubahan dari subjek secara realtime dan menyediakan better performance.
 
 - Model View Controller (MVC)
-
+  - Dapat dipertimbankga sebagai arsitektural design patern, menyimpelkan pengembangan perangkat lunak berbasis gui. 
+  - Komponen:
+    - Model
+      Model merupakan struktur data aplikasi yang bertanggung jawab untuk mengelola data, logic, dan rule aplikasi. Model mendapat input dari controller. 
+    - View
+      Visual representation dari data.
+    - Controller
+      Penengah dari model dan view, controller mengambil input dari user lalu memanipulasinya menjadi format yang dapat dimengerti model atau view.
+  - Cara kerja
+    - User memberi input ke controller
+    - Controller memanipulasi input menjadi format yang dapat dimengerti ke model
+    - Model mengolah dan mengupdate data ke view
+    - View menampilkan visual output data ke user.
+  - Kelebihannya adalha masing-masing komponen dapat dibangun secara paralel dan masing-masing komponen dependen.
+    
 ## Version Control Systems
 ## Coding Basics
 ## Code Review and Testing

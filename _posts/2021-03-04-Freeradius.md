@@ -1,5 +1,8 @@
 ---
 published: true
+layout: post
+categories:
+  - Network Management
 ---
 Freeradius adalah open-source radius yang populer banyak digunakan oleh perusahaan.
 

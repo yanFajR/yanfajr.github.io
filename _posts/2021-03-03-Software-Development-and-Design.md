@@ -122,9 +122,9 @@ Meminimalkan waste dan memaksimalkan nilai kepada costumer.
 Menggunakan software design patern telah terbukti berhasi, menggunakannya akan meningkatkan kecepatan dalam mengembangkan perangkat lunak, karena tidak perlu mencari solusi-solusi baru cukup mengikuti patern saja.
 
 ### Original Design Patern
-- Creational, digunakan untuk memandu, menyederhanakan, mengabstraksi software objek creation dalam skala besar. 
-- Structural, patern menjelaskan cara yang dapat diandalkan dalam membuat objek dan class pada berbagai jenis projek perangkat lunak.
-- Behavioral, merinci bagaimana objek dapat berkomunikasi dan bekerjasama dalam menghadapin tantang yang familiar dalam software engineering.
+- **Creational**, digunakan untuk memandu, menyederhanakan, mengabstraksi software objek creation dalam skala besar. 
+- **Structural**, patern menjelaskan cara yang dapat diandalkan dalam membuat objek dan class pada berbagai jenis projek perangkat lunak.
+- **Behavioral**, merinci bagaimana objek dapat berkomunikasi dan bekerjasama dalam menghadapin tantang yang familiar dalam software engineering.
 
 ### Common Used Design Patern
 - Observer Design Patern

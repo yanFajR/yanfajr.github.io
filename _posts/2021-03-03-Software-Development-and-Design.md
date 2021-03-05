@@ -198,7 +198,7 @@ Menggunakan software design patern telah terbukti berhasi, menggunakannya akan m
   - Hosting service
   
 ### Branch
-- Memungkinkan client bekerja secara dependent tanpa mempengaruhi client lain.
+- Memungkinkan client bekerja secara independent tanpa mempengaruhi client lain.
 
 ### Github
 - Pull request adalah cara kontributor untuk meminta new code, edits to existing code, dll.
@@ -234,6 +234,58 @@ git add <file path>
 git add .
 ```
 - Menghapus file pada repo
+```
+git rm <file path 1> ... <file path n>
+git rm --cached <file path 1> ... <file path n>
+```
+- Memperbaharui repo
+```
+git commit
+git commit -m "<message>"
+```
+- Memperbaharui remote repo
+```
+git push origin <branch name>
+```
+- Mendapatakan pembaharuan ke local
+```
+git pull
+git pull origin
+git pull origin <branch>
+```
+- Brancing
+```
+git branch <parent branch> <branch name>
+git checkout -b <parent branch> <branch name>
+```
+- Menghapus branch
+```
+git branch -d <branch name>
+```
+- Mendapatkan list brancH
+```
+git branch
+git branch --list
+```
+- Merge branch
+```
+git merge <branch name>
+```
+Berpindah ke branch lain
+```
+git checkout <target branch name>
+```
+### .diff File
+Menunjukkan perbedaan dua versi dari sebuah file.
+- + : Menunjukkan baris yang ditambah
+- - : Menunjukkan barus yang dihapus
+- /dev/null : Menunjukkan apakah file sudah dihapus atau ditambahkan.
+- or "blank": Gives context lines around changed lines.
+- @@ : A visual indicator that the next block of information is starting. Within the changes for one file, there may be multiple.
+- index : Menampilkan perbandingan commit
+```
+diff --git a/file1 b/file2
+```
   
 
 

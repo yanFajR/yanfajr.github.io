@@ -159,6 +159,85 @@ Menggunakan software design patern telah terbukti berhasi, menggunakannya akan m
   - Kelebihannya adalha masing-masing komponen dapat dibangun secara paralel dan masing-masing komponen dependen.
     
 ## Version Control Systems
+- Version control adalah bagaimana untuk mengelola perubahan pada set file dengan cara berurutan dan menjaga histori perubahannya. 
+- Pada version control menyimpan master file dan histori perubahan pada sebuah repo, jika seseorang ingin melakukan perubahan ia harus membuat working copy dari repo tersebut agar tidak mempengaruhi yang lain.
+- Manfaat Version Control
+  - Memungkinkan kolaborasi
+  - Akuntabilitas dan visibilitas
+  - Work in isolation
+  - Aman
+  - Bekerja dimanapun
+  
+### Tipe version control
+- Local/LVCS
+  - File dan version database pada local.
+- Centralized/CVCS
+  - FIle pada local, dan version database pada sistem terpusat.
+  - Hanya 1 user berkerja pada satu file secara bersamaan. pake kunci mencegah user lain juga berkerja pada file yang sama.
+- Distributed/DVCS
+  - yang banyak digunakan, ketika mau mengubah harus clone dari hosting repo, bisa banyak user bekerja pada file yang sama karena bekerja dengan working copy masing-masing.
+  
+### Git
+- Git adalah impelementasi dari distributed version control system yang open-source dan sudah terkenal didalam dunia software.
+- Cara kerja git berbeda dengan version control lainnya, git menggunakan snapshot.
+- Git stage:
+  - Repository .git
+    - Menyimpan files (compressed), commits, and logs (commit history).
+  - Staging area
+    - Menyimpan apa yang ingin ditambahkan, diedit, dihapus oleh user.
+  - Working Directory
+- 3 State
+  - Commited -> disimpan ke repo .
+  - Modified -> perubahan pada working directory
+  - Staged   -> disimpan pada staging area.
+  
+### Local Vs Remote Repo
+- Local
+  - client machine
+- Remote
+  - Hosting service
+  
+### Branch
+- Memungkinkan client bekerja secara dependent tanpa mempengaruhi client lain.
+
+### Github
+- Pull request adalah cara kontributor untuk meminta new code, edits to existing code, dll.
+
+### Git Commands
+- Setup
+```
+git config --global user.name "<user's name>"
+git config --global user.email "<user's email>"
+```
+- Membuat repo
+```
+git init <project directory>
+```
+- Clone repo
+```
+git clone <repository> [target directory]
+```
+- Melihat perubahan pada working directory
+```
+git status
+```
+- Membandingkan perubahan diatara dua file
+```
+git diff <file path>
+git diff <commit id> <file path>
+git diff <commit id 1> <commit id 2> <file path>
+git diff <file path 1> <file path 2>
+```
+- Menambah file pada stagging area
+```
+git add <file path>
+git add .
+```
+- Menghapus file pada repo
+  
+
+
+###
 ## Coding Basics
 ## Code Review and Testing
 ## Data Formats

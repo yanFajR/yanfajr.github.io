@@ -275,6 +275,7 @@ Berpindah ke branch lain
 ```
 git checkout <target branch name>
 ```
+
 ### .diff File
 Menunjukkan perbedaan dua versi dari sebuah file.
 - + : Menunjukkan baris yang ditambah
@@ -283,13 +284,13 @@ Menunjukkan perbedaan dua versi dari sebuah file.
 - or "blank": Gives context lines around changed lines.
 - @@ : A visual indicator that the next block of information is starting. Within the changes for one file, there may be multiple.
 - index : Menampilkan perbandingan commit
+
 ```
 diff --git a/file1 b/file2
 ```
   
 
 
-###
 ## Coding Basics
 ## Code Review and Testing
 ## Data Formats

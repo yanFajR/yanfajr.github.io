@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories:
   - Python
@@ -66,5 +66,3 @@ Ran 3 tests in 0.002s
 FAILED (failures=1)
 
 ```
-
-

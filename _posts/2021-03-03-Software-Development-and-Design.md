@@ -429,6 +429,7 @@ edit-config:
 - Serialisasi mengubah
 - Parsing membentuk kembali
 - Parsing xml
+
 ```
 import xml.etree.ElementTree as ET
 import re
@@ -445,7 +446,9 @@ print("The default-operation contains: {}".format(defop.text))
 print("The test-option contains: {}".format(testop.text))
 
 ```
+
 - Parsing JSON
+
 ```
 import json
 import yaml
@@ -462,6 +465,7 @@ print("The token expires in {} seconds.".format(ourjson['expires_in']))
 ```
 
 - Parsing YAML
+
 ```
 import json
 import yaml

@@ -426,8 +426,6 @@ edit-config:
 
 ### Parsing and Serialisasi
 - Pengubahan dalam bentuk yang bisa dikirim dan bisa dimengerti kembali.
-- Serialisasi mengubah
-- Parsing membentuk kembali
 - Parsing xml
 
 ```

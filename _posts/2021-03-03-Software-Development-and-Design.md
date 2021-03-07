@@ -337,5 +337,30 @@ Membantu membuat code menjadi lebih baik, dan mudah untuk dikolaborasikan.
 
 ### Clean Code
 - Kode yang mudah dibaca dan dimengerti oleh developer lain
+
 ## Code Review and Testing
+- Goal Final Code
+  - Mudah dibaca
+  - Mudah dimengerti
+  - Mengikuti coding best practices
+  - Menggunakan correct formatting
+  - Free of bugs
+  - Punya proper comments and documentation
+  - Clean
+  
+- Tipe Code reviews
+  - Formal Code Review
+    - Melakukan beberapa meeting untuk melakukan pengriviewan
+  - Changed-Based Code Review
+  - Over-The-Shoulder Code Review
+  - Email Pass-Around
+  
+- Testing Framework
+  - unittest
+  - PyTest
+  
+- Unit test
+  Test pada unit seperti class, methode, module, class.
+- Integration test
 ## Data Formats
+ 

@@ -408,6 +408,7 @@ Membantu membuat code menjadi lebih baik, dan mudah untuk dikolaborasikan.
 - YANL Aint Markup Language
 - Mirip json, tetapi dalam beberapa kasus lebih baik dibanding json
 - Contoh
+
 ```
 ---
 edit-config:

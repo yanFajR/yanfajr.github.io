@@ -150,7 +150,7 @@ Menggunakan software design patern telah terbukti berhasi, menggunakannya akan m
       Visual representation dari data.
     - Controller
     
-      Penengah dari model dan view, controller mengambil input dari user lalu memanipulasinya menjadi format yang dapat dimengerti model atau view.
+      Penengah dari model dan view, controller mengambil input dari user lalu memanipulasinya menjadi format yang dapat dimengerti model.
   - Cara kerja
     1. User memberi input ke controller
     2. Controller memanipulasi input menjadi format yang dapat dimengerti ke model
@@ -353,6 +353,7 @@ Membantu membuat code menjadi lebih baik, dan mudah untuk dikolaborasikan.
     - Melakukan beberapa meeting untuk melakukan pengriviewan
   - Changed-Based Code Review
   - Over-The-Shoulder Code Review
+    - Memungkinkan fix bug on the spot.
   - Email Pass-Around
   
 - Testing Framework

@@ -364,4 +364,113 @@ Membantu membuat code menjadi lebih baik, dan mudah untuk dikolaborasikan.
 - Integration test
 
 ## Data Formats
- 
+### XML
+- Extensible Markup Language
+- Cikal bakal HTML
+- Menggunakan tag-tag
+- Contoh
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Instance list -->
+<vms>
+  <vm>
+    <vmid>0101af9811012</vmid>
+    <type>t1.nano</type>
+  </vm>
+  <vm>
+    <vmid>0102bg8908023</vmid>
+    <type>t1.micro</type>
+  </vm>
+</vms>
+```
+- user-defined tag name
+
+### JSON
+- JavaScript Object Nation
+- Contoh
+```
+{
+  "edit-config":
+  {
+    "default-operation": "merge",
+    "test-operation": "set",
+    "some-integers": [2,3,5,7,9],
+    "a-boolean": true,
+    "more-numbers": [2.25E+2,-1.0735],
+  }
+}
+```
+
+### YAML
+- YANL Aint Markup Language
+- Mirip json, tetapi dalam beberapa kasus lebih baik dibanding json
+- Contoh
+```
+---
+edit-config:
+  a-boolean: true
+  default-operation: merge
+  more-numbers:
+  - 225.0
+  - -1.0735
+  some-integers:
+  - 2
+  - 3
+  - 5
+  - 7
+  - 9
+  test-operation: set
+...
+```
+
+### Parsing and Serialisasi
+- Pengubahan dalam bentuk yang bisa dikirim dan bisa dimengerti kembali.
+- Serialisasi mengubah
+- Parsing membentuk kembali
+- Parsing xml
+```
+import xml.etree.ElementTree as ET
+import re
+
+xml = ET.parse("myfile.xml")
+root = xml.getroot()
+
+ns = re.match('{.*}', root.tag).group(0)
+editconf = root.find("{}edit-config".format(ns))
+defop = editconf.find("{}default-operation".format(ns))
+testop = editconf.find("{}test-option".format(ns))
+
+print("The default-operation contains: {}".format(defop.text))
+print("The test-option contains: {}".format(testop.text))
+
+```
+- Parsing JSON
+```
+import json
+import yaml
+
+with open('myfile.json','r') as json_file:
+    ourjson = json.load(json_file)
+print(ourjson)
+print("\n\n---")
+print(yaml.dump(ourjson))
+
+print("The access token is: {}".format(ourjson['access_token']))
+print("The token expires in {} seconds.".format(ourjson['expires_in']))
+
+```
+
+- Parsing YAML
+```
+import json
+import yaml
+with open('myfile.yaml','r') as yaml_file:
+    ouryaml = yaml.safe_load(yaml_file)
+
+print(ouryaml)
+print("\n\n")
+print(json.dumps(ouryaml, indent=4))
+
+print("The access token is {}".format(ouryaml['access_token']))
+print("The token expires in {} seconds.".format(ouryaml['expires_in']))
+```

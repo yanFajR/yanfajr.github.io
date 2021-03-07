@@ -289,8 +289,53 @@ Menunjukkan perbedaan dua versi dari sebuah file.
 diff --git a/file1 b/file2
 ```
   
-
-
 ## Coding Basics
+### Methode, Function, Modules, dan Classes
+Membantu membuat code menjadi lebih baik, dan mudah untuk dikolaborasikan.
+
+- Methode and Function
+  - Perbedaan methode adalah methode merupakan bagian dari object. 
+  - Arguments -> nilai yang dikirimkan
+  - Parameters -> variable pada function
+  - Return Statements -> Nilai yang dihasilkan
+  
+  Function
+  ```
+  # Define the function
+  def functionName:
+  	...blocks of code...
+    
+  # Call the function
+  functionName()
+  ```
+  Method
+  ```
+  # Define the class
+  class className
+  	# Define amethod
+    def method1Name
+    	...blocks of code
+    # Define anothermethod
+    def method2Name
+    	...blocks of code
+    # Define yet anothermethod
+    def method3Name
+    	...blocks of code
+  
+  #Instantiate the class
+  myClass = className()
+  #Call the instantiation and associated methods
+  myClass.method1Name()
+  myClass.method2Name()
+  myClass.method3Name()
+  ```
+  
+- Modules
+  - seperti menggunakan library eksternal, kita juga bisa membuatnya sendiri dari file terpisah.
+- Classes
+  - akrab dengan konsep oop
+
+### Clean Code
+- Kode yang mudah dibaca dan dimengerti oleh developer lain
 ## Code Review and Testing
 ## Data Formats

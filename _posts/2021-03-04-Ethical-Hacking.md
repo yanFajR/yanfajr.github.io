@@ -58,14 +58,20 @@ Materi yang berkaitan dengan Ethical hacking.
   - Seorang yang memiliki hoby dalam hacking
   - Orang yang sedang mencoba-coba untuk belajar
 - Fase
-  - Reconnaissance
-    - Mencari informasi mengenai target yang akan diserang.
+  - Footprinting & Reconnaissance
+    - Mencari informasi sebanyak mungkin mengenai target yang akan diserang.
     - Target : klien, pegawai, network, sistem operasi, dll.
     - Ada dua macam :
       - active
         Langsung berinteraksi dengan target.
       - passive
         Tidak berinteraksi langsung, dengan mencari public record.
+    - Tujuan Footprinting
+      - Mengetahui keamanan
+      - Mengurangi fokus area
+      - Mengidentifikasi vuln
+      - Menggambar topologi network
+    - Teknik Footprinting : Search engine, Advanced Google Hacking https://www.google.com/advanced_search , Social Network, Website, Email, WHOIS, DNS, Network, Social Engineering.
   - Scanning
     - Scan the network
   - Gaining Access

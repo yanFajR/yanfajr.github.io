@@ -39,3 +39,13 @@ Tujuan teknis
 
 ## Karakterisasi Existing Jaringan dan Trafik
 Tujuannya untuk mengidentifikasi kebutuhan dan menyesuaikan atara ekspektasi dan kondisi.
+
+## Routing & Switching
+
+Multiple Routing Protocol in an Internetwork
+- CORE
+  - ada redundant link, load sharing antar equal cost path.
+  - eigrp, ospf, is-is.
+  - ada mekanisme perubahan link dengan cepat jika terjadi fail pada suatu link.
+- AKSES
+  - RIPV2, OSPF, EIGRP

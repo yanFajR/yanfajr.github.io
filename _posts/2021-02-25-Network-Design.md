@@ -40,6 +40,25 @@ Tujuan teknis
 ## Karakterisasi Existing Jaringan dan Trafik
 Tujuannya untuk mengidentifikasi kebutuhan dan menyesuaikan atara ekspektasi dan kondisi.
 
+## Desain Topologi Jaringan
+### Hirarki desain
+- Core
+  - Penghubung ke perangkat end.
+- Distribution
+  - Penghubung core dan access
+- Access
+  - Penghubung ke internet
+### Redundant desain
+- Backup path
+  - satu mati satu ganti
+- Load sharing
+  - berbagi beban 
+### Modular desain
+Dipisah menjadi modul-modul dengan fungsi tersendiri
+### Secure desain
+- Policy keamanan
+- Firewall
+
 ## Routing & Switching
 
 Multiple Routing Protocol in an Internetwork

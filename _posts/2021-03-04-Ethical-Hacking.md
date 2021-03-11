@@ -7,18 +7,37 @@ categories:
 Materi yang berkaitan dengan Ethical hacking.
 
 **Terminologi:**
+- Hack Value
+  
+  Nilai yang menunjukkan sesuatu yang menarik untuk alasan hacking.
+   
 - Payload
+
   Bagian dari kode yang melakukan suatu action.
+  
 - Vulnerability
+
   Kerentanan pada suatu sistem.
+  
 - Exploit
+
   Pembobolan sistem dari vulnerability yang ada.
+  
 - Zero-Day Attack
+
   Serangan sebelum pengembang melakukan penambalan vulnerability.
+  
 - Daisy Chaining
+
   Mendapatkan akses ke suatu sistem.
+  
 - Bot
+
   Software yang melakukan perintah tertentu secara automatis.
+  
+- Doxing
+
+  Mempublish informasi mengenai seseorang
   
 ## Elemen Keamanan Informasi
 - Confidentialy
@@ -32,6 +51,17 @@ Materi yang berkaitan dengan Ethical hacking.
 ## Attack
 - **Attack** terjadi karena adanya motive, methode, dan vulnerability
 
+- Top vektor penyerangan keamanan informasi
+  - Cloud computing threats
+    - data loss
+    - hijacking
+  - Advanced presisten threats
+  - Virus dan worms
+  - Mobile threats
+  - Insider attack
+    - attack by trusted person
+  - Botnets
+  
 - Kategori Ancaman
   - Network threats
     Information gathering, Sniffing, Spoofing, Session hijacking, MITM, Dns adn Arp Poinsoning, Passwod base attack, Dos, dll.
@@ -43,6 +73,10 @@ Materi yang berkaitan dengan Ethical hacking.
 - Tipe Searangan
   - OS Attacks
     Mencari vulnerability suatu os.
+    - buffer overvflow
+    - bugs
+    - unpatched os
+    
   - Misconfiguration Attacks
     Kesalahan konfigurasi yang menyebabkan ilegal access.
   - App level attacks
@@ -76,5 +110,6 @@ Materi yang berkaitan dengan Ethical hacking.
     - Scan the network
   - Gaining Access
   - Maintaining Access
+    - Backdor, rootkits, trojan
   - Clearing Tracks
   -

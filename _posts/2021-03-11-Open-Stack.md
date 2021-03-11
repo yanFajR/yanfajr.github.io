@@ -17,6 +17,10 @@ OpenStack adalah software open source untuk cloud computing khususnya iaas (infr
 
 ## Install
 
+- Ubuntu 18.04
+- RAM 2GB
+- PROC 2 CORE
+
 ```
 sudo apt-get update
 sudo apt-get upgrade

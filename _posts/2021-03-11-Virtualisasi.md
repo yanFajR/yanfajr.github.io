@@ -20,6 +20,8 @@ Virtualisasi
 ### Native Virtualisasi
 - Langsung berkomunikasi dengan hardware
 - contoh : Proxmox, VMware EXSI, Microsoft Hyper-V
+### Container
+- contoh : Docker
 
 
 

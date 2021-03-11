@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories:
   - SDN
@@ -15,3 +15,26 @@ OpenStack adalah software open source untuk cloud computing khususnya iaas (infr
 - **Keystone**, Untuk fungsi identity 
 - **Horizon**, Untuk fungsi dashboard
 
+## Install
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-add-repository universe
+sudo apt-get update
+
+sudo adduser stack
+sudo -i
+echo "stack ALL=(ALL) NOPASSWD:ALL">>/etc/sudoers
+exit
+exit
+
+==Login user stack==
+git clone https://git.openstack.org/openstack-dev/devstack
+
+chown -R stack devstack
+cd devstack
+sudo cp samples/local.conf ./local.conf
+sudo nano local.conf
+./stack.sh
+```

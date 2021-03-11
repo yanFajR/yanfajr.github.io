@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 categories:
   - Virtualisasi
@@ -22,7 +22,3 @@ Virtualisasi
 - contoh : Proxmox, VMware EXSI, Microsoft Hyper-V
 ### Container
 - contoh : Docker
-
-
-
-

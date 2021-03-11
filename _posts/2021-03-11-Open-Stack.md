@@ -1,5 +1,8 @@
 ---
 published: false
+layout: post
+categories:
+  - SDN
 ---
 OpenStack adalah software open source untuk cloud computing khususnya iaas (infrastruktur as a service).
 

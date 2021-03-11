@@ -36,5 +36,18 @@ chown -R stack devstack
 cd devstack
 sudo cp samples/local.conf ./local.conf
 sudo nano local.conf
+```
+
+File local.conf
+```
+[[local|localrc]]
+ADMIN_PASSWORD=secret
+DATABASE_PASSWORD=$ADMIN_PASSWORD
+RABBIT_PASSWORD=$ADMIN_PASSWORD
+SERVICE_PASSWORD=$ADMIN_PASSWORD
+```
+
+Run
+```
 ./stack.sh
 ```

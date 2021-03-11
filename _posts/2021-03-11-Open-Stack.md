@@ -51,3 +51,6 @@ Run
 ```
 ./stack.sh
 ```
+
+## Source
+1. https://docs.openstack.org/devstack/latest/

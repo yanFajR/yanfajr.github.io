@@ -22,7 +22,9 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-add-repository universe
 sudo apt-get update
-
+```
+Tambahkan user stack
+```
 sudo adduser stack
 sudo -i
 echo "stack ALL=(ALL) NOPASSWD:ALL">>/etc/sudoers

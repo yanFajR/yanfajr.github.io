@@ -4,7 +4,10 @@ layout: post
 categories:
   - SDN
 ---
-OpenStack adalah software open source untuk cloud computing khususnya iaas (infrastruktur as a service).
+OpenStack adalah open source sistem operasi cloud yang mengontrol sumber daya computing, storage, dan network dalam jumlah besar. Semuanya dimanajemen dan disediakan melalui API dengan authentication yang umum.
+
+![map openstack.PNG]({{site.baseurl}}/images/map openstack.PNG)
+
 
 ## Komponen
 - **Nova**, Untuk fungsi computing
@@ -63,3 +66,4 @@ Run
 ### Source
 ---
 1. [OpenStack Docs](https://docs.openstack.org/devstack/latest/)
+2. [OpenStack](https://www.openstack.org/)

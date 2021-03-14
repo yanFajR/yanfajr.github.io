@@ -29,5 +29,17 @@ Alur kerja kubernetes, yang pertama kita mendefinisikan config file yang berisi 
   - **kubelet**, ada pada setiap node untuk memastikan container berjalan
   - **kube-proxy**, ada pada setiap node untuk proxy terhadap arus network dan sebagai load balancer
   - **container-manager**, contohnya docker
+  
+## Install
+
+Pada windows
+1. Install minikube
+   - Download [https://github.com/kubernetes/minikube/releases/tag/v1.18.1](https://github.com/kubernetes/minikube/releases/tag/v1.18.1)
+   - Install exe file
+   - minikube start
+   
+     ![minikube start.PNG]({{site.baseurl}}/images/minikube start.PNG)
+
+   - 
 
 

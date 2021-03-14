@@ -12,4 +12,22 @@ Alur kerja kubernetes, yang pertama kita mendefinisikan config file yang berisi 
 1. perubahan konsep deploy apps yang awalnya monolit menjadi microservice yang tentu memiliki tantang yang lebih bagi seorang operasional engineer.
 2. perubahan tren dari awalnya menggunakan full virtualisasi ke konsep containers.
 
+## Arsitektur
+
+**kubernetes cluster :** 
+
+![post-ccm-arch.png]({{site.baseurl}}/images/post-ccm-arch.png)
+
+- **Kubernetes Master**
+  - **kube-apiserver**, sebagai api untuk berinteraksi dengan kubernetes cluster
+  - **etcd**, sebagai database kubernetes cluster
+  - **kube-scheduller**, monitoring container berjalan dan meminta kepada node untuk menjalankan container
+  - **kube-control-manager**, kontrol terhadap kubernetes cluster
+  - **cloud-control-manager**, kontrol terhadap interaksi dengan cloud provider
+  
+- **Kubernetes Nodes**
+  - **kubelet**, ada pada setiap node untuk memastikan container berjalan
+  - **kube-proxy**, ada pada setiap node untuk proxy terhadap arus network dan sebagai load balancer
+  - **container-manager**, contohnya docker
+
 

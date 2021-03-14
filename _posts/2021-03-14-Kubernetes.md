@@ -40,6 +40,6 @@ Pada windows
    
      ![minikube start.PNG]({{site.baseurl}}/images/minikube start.PNG)
 
-   - 
+   - Install kubectl [https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
 
 

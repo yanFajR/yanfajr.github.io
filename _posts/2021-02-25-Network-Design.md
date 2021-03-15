@@ -71,3 +71,58 @@ Multiple Routing Protocol in an Internetwork
   - ada mekanisme perubahan link dengan cepat jika terjadi fail pada suatu link.
 - AKSES
   - RIPV2, OSPF, EIGRP
+  
+## Rancangan Keamanan Jaringan
+
+### Perancangan keamanan jaringan:
+1. identifikasi aset jaringan
+2. analisis resiko keamanan
+3. analisis kebutuhan dan tradeoff keamanan
+4. pengembangan rencana keamanan
+5. menentukan kebijakan keamanan
+6. pengembangan prosedur untuk menerapkan kebijakan keamanan
+7. pengembangan strategi teknsi implementasi
+8. mendapatkan dukungan dari pengguna, manajer, dan staf teknis
+9. pelatihan pengguna, manejer, dan staf teknis
+10. implementasi prosedur keamanan dan strategi teknis
+11. pengujian keamanan dan pembaruan jika ada masalh yang ditemukan.
+
+### Resiko keamanan jaringan
+- kehilangan informasi
+- kerusakan informasi
+
+resiko = ancaman x kelemahan
+
+### Security tradeoffs
+- affordability
+- usability
+- performance
+- avaiability
+- manageability
+
+### kebijakan keamanan -> prosedur keamanan
+
+### Mekanisme keamanan
+- keamanan fisik
+- AAA
+- ENKRIPSI
+- paket filter
+- firewall
+- IDS
+
+### Rancangan keamanan secara modular
+- defence in depth
+- belt and suspenders, harus memiliki backup
+
+
+
+
+
+
+
+
+
+
+
+
+

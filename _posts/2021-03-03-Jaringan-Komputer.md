@@ -19,6 +19,21 @@ categories:
   - OSI
   - Apple Talk
   - Novell NetWare
+  
+- TCP/IP Layer
+  - Application (data)
+  - Transport (segment)
+  - Internet (packet)
+  - Data link (frame)
+  - Physical (bits)
+  
+- Plan of a router
+  - manangement
+    - contoh ssh, snmp
+  - control
+    - routing table
+  - data
+    - switching packet
 
 - Jaringan komputer tidak terlepas dari perangkat-perangkat yang menyertainya.
   - end device, berperan sebagai perangkat yang digunakan pengguna. contoh : komputer, laptop, smartphone, printer, dll.

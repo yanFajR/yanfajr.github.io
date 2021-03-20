@@ -102,3 +102,39 @@ var namaVariable;
 - **scope**
   - function scope
     pake sistem var local function dan global
+    
+## Array
+```
+var x = [1,2,3];
+```
+
+- method untuk array
+  - length
+  - join
+  - push, pop, unshift, shift
+  - slice
+  - splice
+    ```
+    x.slice(indexAwal, berapaHapus, tambah);
+    ```
+  - sort
+    jika dua digit
+    
+    ```
+    angka.sort(function(a,b){
+    	return a-b;
+    });
+    ```
+    
+## Foreach and Map
+```
+angka.forEach(function(e, i){
+	console.log(e);
+});
+
+
+var angka2 = angka.forEach(function(e){
+	return e*2;
+});
+```
+

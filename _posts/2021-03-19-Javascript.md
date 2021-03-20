@@ -157,4 +157,13 @@ var angka2 = angka.map(function(e){
 ```
 
 ## object
+```
+var orang = {
+	nama : "ryan",
+    umur : 20;
+}
+```
+
+- properti => variable dalam object
+- method => fungsi dalam object
 

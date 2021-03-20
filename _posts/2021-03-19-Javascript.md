@@ -101,6 +101,7 @@ var namaVariable;
 
 - **scope**
   - function scope
+  
     pake sistem var local function dan global
     
 ## Array
@@ -128,6 +129,7 @@ var x = [1,2,3];
     ```
     
   - filter and find
+  
     find 1, filter banyak
     
     ```

@@ -166,4 +166,13 @@ var orang = {
 
 - properti => variable dalam object
 - method => fungsi dalam object
+- Buat object
+```
+function Mahasiswa(nama, nrp){
+	this.nama = nama;
+    this.nrp = nrp;
+}
+
+var mhs1 = new Mahasiswa("ryan", "12323");
+```
 

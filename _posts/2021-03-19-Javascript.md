@@ -84,6 +84,7 @@ var namaVariable;
     return total;
   }
   ```
+  
 - function expression
   ```
   var jumlahDuaBilangan = function(a,b){

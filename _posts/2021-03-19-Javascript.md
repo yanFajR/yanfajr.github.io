@@ -240,3 +240,29 @@ function Mahasiswa(nama,energi){
 ```
 
 ### Prototype
+```
+function Mahasiswa(nama,energi){
+    this.nama = nama;
+    this.energi = energi;
+}
+
+Mahasiswa.prototype.makan = function(porsi){
+	this.energi += porsi;
+    return `Halo ${this.nama}, selamat makan!`;
+}
+```
+
+class
+
+```
+class Mahasiswa {
+	constructor(nama,energi){
+		this.nama = nama;
+        this.energi = energi;
+    }
+    makan(porsi){
+    	this.energi += porsi;
+    	return `Halo ${this.nama}, selamat makan!`;
+    }
+}
+```

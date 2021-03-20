@@ -267,4 +267,7 @@ class Mahasiswa {
 }
 ```
 
+### Closures
+- Execution context, hoisting, scope
+
 

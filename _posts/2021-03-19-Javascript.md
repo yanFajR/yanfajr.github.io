@@ -239,3 +239,4 @@ function Mahasiswa(nama,energi){
 }
 ```
 
+### Prototype

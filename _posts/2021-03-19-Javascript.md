@@ -77,3 +77,17 @@ var namaVariable;
     ```
     
 ## Function
+- function declaration
+  ```
+  function jumlah(a,b){
+  	var total = a+b;
+    return total;
+  }
+  ```
+- function expression
+  ```
+  var jumlahDuaBilangan = function(a,b){
+  	var total = a+b;
+    return total;
+  }
+  ```

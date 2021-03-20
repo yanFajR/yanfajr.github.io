@@ -15,8 +15,27 @@ Server side
 - number
   - interger
   - 
+  
 - string
-- bool
+  - ""
+  - ''
+  - \u
+  
+- boolean
 - object
 - function
 - undefined
+
+
+## variable
+- var
+var namaVariable;
+
+- let
+
+- const
+
+## popup box
+- alert()
+- prompt()
+- confirm()

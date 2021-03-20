@@ -77,7 +77,7 @@ var namaVariable;
     ```
     
 ## Function
-- function declaration
+- **function declaration**
   ```
   function jumlah(a,b){
   	var total = a+b;
@@ -85,10 +85,20 @@ var namaVariable;
   }
   ```
   
-- function expression
+- **function expression**
   ```
   var jumlahDuaBilangan = function(a,b){
   	var total = a+b;
     return total;
   }
   ```
+  
+- **arguments**
+  array argumen
+  
+- **refactoring**
+  penyerderhanaan agar hemat memori
+
+- **scope**
+  - function scope
+    pake sistem var local function dan global

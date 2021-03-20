@@ -202,7 +202,7 @@ function Mahasiswa(nama,energi){
     
     mahasiswa.makan = function(porsi){
     	this.energi += porsi;
-        console.log(console.log(`Halo ${this.nama}, selamat makan!`)
+        console.log(`Halo ${this.nama}, selamat makan!`)
     }
     return mahasiswa;
 }
@@ -217,10 +217,25 @@ function Mahasiswa(nama,energi){
     
     this.makan = function(porsi){
     	this.energi += porsi;
-        console.log(console.log(`Halo ${this.nama}, selamat makan!`)
+        console.log(`Halo ${this.nama}, selamat makan!`)
     }
 }
 ```
 
-###
+### Object.create()
+```
+const methodMahasiswa = {
+ 	makan: function(porsi){
+    	this.energi += porsi;
+        console.log(console.log(`Halo ${this.nama}, selamat makan!`)
+}
+
+function Mahasiswa(nama,energi){
+	let mahasiswa = Object.create(methodMahasiswa)
+    mahasiswa.nama = nama;
+    mahasiswa.energi = energi;  
+    }
+    return mahasiswa;
+}
+```
 

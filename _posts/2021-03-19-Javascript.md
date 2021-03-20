@@ -41,7 +41,7 @@ var namaVariable;
 - confirm()
 
 ## Control Flow
-- pengulangan
+- **pengulangan**
   - **for**
     ```
     for(nilaiAwal;kondisi;increment/decrement){
@@ -55,7 +55,7 @@ var namaVariable;
     	aksi;
     }
     ```
-- percabangan
+- **percabangan**
   - **if**
     ```
     if(kondisi){

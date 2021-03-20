@@ -176,3 +176,51 @@ function Mahasiswa(nama, nrp){
 var mhs1 = new Mahasiswa("ryan", "12323");
 ```
 
+## Advanced Javascript
+
+### object
+1. object literal
+
+```
+let mahasiswa = {
+	nama: "ryan",
+    energi: 10,
+    makan: function(porsi){
+    	this.energi += porsi;
+        console.log(`Halo ${this.nama}, selamat makan!`);
+	}
+}
+```
+
+2. function decleration
+
+```
+function Mahasiswa(nama,energi){
+	let mahasiswa = {}
+    mahasiswa.nama = nama;
+    mahasiswa.energi = energi;
+    
+    mahasiswa.makan = function(porsi){
+    	this.energi += porsi;
+        console.log(console.log(`Halo ${this.nama}, selamat makan!`)
+    }
+    return mahasiswa;
+}
+```
+
+3. constructor
+
+```
+function Mahasiswa(nama,energi){
+    this.nama = nama;
+    this.energi = energi;
+    
+    this.makan = function(porsi){
+    	this.energi += porsi;
+        console.log(console.log(`Halo ${this.nama}, selamat makan!`)
+    }
+}
+```
+
+###
+

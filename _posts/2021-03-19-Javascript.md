@@ -64,4 +64,14 @@ var namaVariable;
     ```
   - **if else**
   - **if else if**
-  - switch
+  - **switch**
+    ```
+    switch(ekspresi){
+    case "nilai 1":
+		aksi;
+        break;
+    default:
+		aksi;
+        break;
+    }
+    ```

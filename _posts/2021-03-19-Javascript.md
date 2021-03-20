@@ -151,7 +151,7 @@ angka.forEach(function(e, i){
 });
 
 
-var angka2 = angka.forEach(function(e){
+var angka2 = angka.map(function(e){
 	return e*2;
 });
 ```

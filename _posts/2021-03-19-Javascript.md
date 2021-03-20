@@ -41,3 +41,27 @@ var namaVariable;
 - confirm()
 
 ## Control Flow
+- pengulangan
+  - **for**
+    ```
+    for(nilaiAwal;kondisi;increment/decrement){
+    	aksi;
+    }
+    ```
+  - **do**
+  - **while**
+    ```
+    while(kondisi){
+    	aksi;
+    }
+    ```
+- percabangan
+  - **if**
+    ```
+    if(kondisi){
+    	aksi;
+    }
+    ```
+  - **if else**
+  - **if else if**
+  - switch

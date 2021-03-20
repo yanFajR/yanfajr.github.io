@@ -94,9 +94,11 @@ var namaVariable;
   ```
   
 - **arguments**
+
   array argumen
   
 - **refactoring**
+
   penyerderhanaan agar hemat memori
 
 - **scope**

@@ -118,11 +118,25 @@ var x = [1,2,3];
     x.slice(indexAwal, berapaHapus, tambah);
     ```
   - sort
-    jika dua digit
+  
+    jika dua digit:
     
     ```
     angka.sort(function(a,b){
     	return a-b;
+    });
+    ```
+    
+  - filter and find
+    find 1, filter banyak
+    
+    ```
+    var angka2 = angka.find(function(x){
+    	return x > 5;
+    });
+    
+    var angka2 = angka.filter(function(x){
+    	return x > 5;
     });
     ```
     

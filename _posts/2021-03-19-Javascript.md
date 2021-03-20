@@ -156,3 +156,5 @@ var angka2 = angka.map(function(e){
 });
 ```
 
+## object
+

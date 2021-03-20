@@ -39,3 +39,5 @@ var namaVariable;
 - alert()
 - prompt()
 - confirm()
+
+## Control Flow

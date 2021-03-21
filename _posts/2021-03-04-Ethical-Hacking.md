@@ -113,3 +113,45 @@ Materi yang berkaitan dengan Ethical hacking.
     - Backdor, rootkits, trojan
   - Clearing Tracks
   -
+  
+  
+## Network Scanning
+
+- Informasi dari footprinting digunakan untuk fase scanning network.
+
+- Network scanning adalah  method untuk mendapatkan:
+  - Live hosts pada sebuah network
+  - open dan closed ports
+  - informasi os
+  - service yang running pada sebuah network
+  - apakah ada device keamanan seperti firewall
+  - arsitektur sebuah system
+  - running service
+  - mengidentidikasi vulnerabilities
+  
+- Scanning network termasuk menyelidiki(probing) target network untuk mendapatkan information
+
+- TCP Communication
+  - Flag adalah bagian dari tcp header:
+    - SYN => untuk inisiasi tcp connection betwet two hosts.
+    - ACK => memberitahu bahwa telah menerima paket.
+    - URG => mengindikasikan bahwa data yang terkandung dalam paket itu penting dan harus diproses secepatnya.
+    - PSH => menginstruksikan system untuk mengirim all buffered data secepatnya.
+    - FIN => memberitahu remote system untuk end tcp connection.
+    - RST => reset a connection.
+
+- Scanning Metodologi
+  - checking live system (host discovert)
+    - menggunakan icmp echo request,jika ada reply maka host itu aktif
+    - icmp scanning
+    - ping sweep
+  - menemukan open ports
+    - ssdp(simple service discovery protocol) scanning
+    - nmap
+    - hping2 & hping3
+  - scanning beyond ids
+  - banner grabbing
+  - scanning vulnerabilities
+  - network diagram
+  - proxies
+

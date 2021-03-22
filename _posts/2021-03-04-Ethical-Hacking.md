@@ -131,7 +131,7 @@ Materi yang berkaitan dengan Ethical hacking.
   
 - Scanning network termasuk menyelidiki(probing) target network untuk mendapatkan information
 
-- TCP Communication
+### TCP Communication
   - Flag adalah bagian dari tcp header:
     - SYN => untuk inisiasi tcp connection betwet two hosts.
     - ACK => memberitahu bahwa telah menerima paket.
@@ -140,7 +140,7 @@ Materi yang berkaitan dengan Ethical hacking.
     - FIN => memberitahu remote system untuk end tcp connection.
     - RST => reset a connection.
 
-- Scanning Metodologi
+### Scanning Metodologi
   - checking live system (host discovert)
     - menggunakan icmp echo request,jika ada reply maka host itu aktif
     - icmp scanning
@@ -154,4 +154,8 @@ Materi yang berkaitan dengan Ethical hacking.
   - scanning vulnerabilities
   - network diagram
   - proxies
-
+  
+### Scanning Techniques
+- TCP Connect/Full Open Scan
+- Stealth Scan (Half-open Scan)
+- Inverse TCP Flag Scanning

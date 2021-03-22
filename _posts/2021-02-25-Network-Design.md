@@ -116,13 +116,78 @@ resiko = ancaman x kelemahan
 
 
 
+## Strategi Manajemen Jaringan
 
+- Rancangan manajemen jaringan yang baik dapat mencapai tujuan ketersediaan, performa, dan keamanan.
 
+### Network Management Design
+- Pertimbangan skalabilitas, trafic patterns, data formats, cost/benefit tradeoffs
+- Tentukan sumberdaya yang akan dipantau
+- Matrik pengukuran performa
+  - availability
+  - response time
+  - throughput
+  - usability
+- Tentukan apa dan seberapa banyak data akan dikumpulkan
 
+### Proaktive Network Management
+- Pemeriksaan kesehatan jaringan selama operasi normal
+  - potensi permasalahan
+  - mengoptimalkan unjuk kerja
+  - merencanakan pembaruan
 
+### Network management process
+- Fault Management
+  - Mendeteksi, mengisolasi, mendiagnosa, memperbaiki masalah
+  - melaporkan status keapada end user dan manager
+  - melacak trend permasalahan
+  - pengembangan solusi terhadap permasalahan
 
+- Configuration Management
+  - pelacakan terhadap piranti dan konfigurasinya
+  - mengelola inventaris aset-aset jaringan
+  - version-loging, melacak versi sistem operasi jaringan
+  - manajer jaringan dapat menentukan dan menyimpan konfigurasi 
 
+- Accounting Management
+  - melacak menggunaan resource jaringan
+  - menfasilitasi penggunaan billing
+  - mencari penggunaan-penggunaan tidak wajar
 
+- Performance jaringan
+  - mengukur perilaku dan efektifitas jaringan
 
+- Security Management
+  - mengelola dan mendistribusikan user name dan passowrd
+  - membangkitkan, mendistribusikan, dan meyimpan encription keys
+  - meliputi tool dan reports untuk menganalisisi konfigurasi piranti untuk ketundukan terhadap standar keamanan
 
+### Arsitektur network management
+- Komponen 
+  - a manage device 
+  - an agent
+  - a network management system
+- Jalur
+  - inband vs out of band
+- Pemantauan
+  - terpusan vs terdistribusi
 
+### SNMP
+- SNMPV3 menawarkan autentikasi
+- MIB (Management Information Base)
+
+### RMON
+- mengatasi kelemahan penyediaan statistic parameter pada lapisan data link dan physic.
+
+### Cisco Tools 
+- CDP (Cisco Discovery Protocol)
+  - menentukan bagaimanan perangkat cisco bertukar info konfigurasi
+- Cisco NetFlow Accounting
+  - mengumpulkan dan mengukur data yang masuk ke interface router autau switch
+
+### Estimasi Trafik Network Management
+- Misal ada 200 piranti, 10 parameter tiap piranti
+  request = 2000
+- Setiap paket 64 byte/5 detik
+  2000*2*64 bytes/5 detik
+- Bandingkan dengan bandwith, apakah wajar atau tidak

@@ -20,12 +20,29 @@ categories:
   - Apple Talk
   - Novell NetWare
   
-- TCP/IP Layer
+- **TCP/IP Layer**
   - Application (data)
   - Transport (segment)
   - Internet (packet)
   - Data link (frame)
-  - Physical (bits)
+  - **Physical** (bits)
+    - wired
+      - Twister pair
+        - Fast LANS
+        - 10 - 10 Gbps
+      - Coaxial cable
+        - Home broadband access
+        - 10 Mbps
+      - Fiber
+        - core network
+        - 100 Gbps
+    - wireless
+      - 5G
+        - cellular access
+        - 20 Gbps
+      - WI-FI (
+        - 802.11 a/b/g/n/ac/ax
+        - 9.6 Gbps
   
 - Plan of a router
   - manangement
@@ -58,5 +75,3 @@ categories:
   - multicast 
   - loopback 
   - unspecified
-  
-

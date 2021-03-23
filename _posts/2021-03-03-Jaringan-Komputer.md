@@ -21,10 +21,20 @@ categories:
   - Novell NetWare
   
 - **TCP/IP Layer**
-  - Application (data)
-  - Transport (segment)
-  - Internet (packet)
-  - Data link (frame)
+  - **Application** (data)
+    - Komunikasi diantara application programs
+    - FTP, POP3, HTTP, WWW, DHCP, DNS, SNMP, TELNET, etc.
+  - **Transport** (segment)
+    - Komunikasi diatara processes.
+    - UDP : Fast transmission
+    - TCP : Reliable transmission
+  - **Internet** (packet)
+    - Komunikasi diantara hosts/Path delivery.
+    - IP
+  - **Data link** (frame)
+    - Komunikasi diantara neighbor/one-hop delivery.
+    - Berbeda jenis link physical maka beda protocol.
+    - Contoh : PPP, 802.11, Ethernet, PPPoE.
   - **Physical** (bits)
     - wired
       - Twister pair

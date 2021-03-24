@@ -289,6 +289,7 @@ function ucapkanSalam(waktu){
 let selamatPagi = ucapkanSalam("Pagi");
 selamatPagi("Ryan");
 ```
+
 - Execution context, hoisting, scope
 - alasan menggunakan closure
   - membuat function factory

@@ -293,3 +293,14 @@ selamatPagi("Ryan");
 - Execution context, hoisting, scope
 - alasan menggunakan closure
   - membuat function factory
+
+
+### Arrow function
+Function expression lebih ringkas
+
+```
+let tampilPesan = (nama) => {
+	return `Halo, ${nama}`;
+}
+```
+- tak cocok untuk constructor kecuali untuk methodnya

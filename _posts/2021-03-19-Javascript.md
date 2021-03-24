@@ -268,6 +268,27 @@ class Mahasiswa {
 ```
 
 ### Closures
+- Kombinasi antara function yang memiliki access ke parent scope.
+
+```
+function init(){
+	let nama = "ryan";
+    function tanmpilNama(){  //closure
+     console.log(nama);
+    }
+    tampilNama();
+}
+
+
+function ucapkanSalam(waktu){
+	retrun function (nama){
+		console.log("terserah");
+    }
+}
+
+let selamatPagi = ucapkanSalam("Pagi");
+selamatPagi("Ryan");
+```
 - Execution context, hoisting, scope
-
-
+- alasan menggunakan closure
+  - membuat function factory

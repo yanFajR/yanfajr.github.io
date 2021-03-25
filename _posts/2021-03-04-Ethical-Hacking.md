@@ -114,7 +114,50 @@ Materi yang berkaitan dengan Ethical hacking.
   - Clearing Tracks
   -
   
+
+
+## Footprinting dan Reconnaissance
+- Footprinting adalah fase attacker untuk menggali informasi mengenai internal dan external arsitektur keamanan target.
+
+- Informasi tersebut membantu untuk mengidentifikasi kelemahan sistem target.
+
+### Konsep Footprinting
+- Mendapatkan segala informasi mengenai target dan network target.
+
+- Pseudonymous Footprinting, melalui online resource.
+- Internet Footprinting, melalui internet
+
+- Tujuan
+  - Untuk mengetahui security posture
+  - Untuk mengurangi fokus area
+  - Mengindentifikasu kelemahan
+  - Menggambar network map
   
+### Metodologi Footprinting
+Search engine -> google hacking -> social network -> website footprinting -> email footprinting -> competitive intelligence -> who is -> network footprinting -> social engineering -> document all findings
+
+1. Footprinting melalui search engine.
+2. Menemukan company public dan restricted website.
+3. Mengumpulkan informasi lokasi.
+4. People search online services.
+5. Menggali informasi dari finansial service
+6. Melalui job sites
+7. Monitoring target dengan Alerts
+8. Information gathering menggunakan grous, forums, dan blogs
+9. Menggunakan advanced google hacking technik
+   - site:
+   - related:
+   - cache:
+   - link:
+   - allintext:
+   - intext:
+   - allintext:
+   - allintitle:
+   - intitle:
+   - allinurl:
+   - inurl:
+10. Google Hacking Database
+
 ## Network Scanning
 
 - Informasi dari footprinting digunakan untuk fase scanning network.

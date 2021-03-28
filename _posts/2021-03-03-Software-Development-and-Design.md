@@ -156,7 +156,7 @@ Menggunakan software design patern telah terbukti berhasi, menggunakannya akan m
     2. Controller memanipulasi input menjadi format yang dapat dimengerti ke model
     3. Model mengolah dan mengupdate data ke view
     4. View menampilkan visual output data ke user.
-  - Kelebihannya adalha masing-masing komponen dapat dibangun secara paralel dan masing-masing komponen dependen.
+  - Kelebihannya adalha masing-masing komponen dapat dibangun secara paralel dan masing-masing komponen independen.
     
 ## Version Control Systems
 - Version control adalah bagaimana untuk mengelola perubahan pada set file dengan cara berurutan dan menjaga histori perubahannya. 
